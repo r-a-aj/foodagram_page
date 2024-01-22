@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #ff7171;
+  padding: 1rem;
+  font-family: "Sans-Serif";
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #000;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+
+.bar {
+  margin-left: 25px;
+  height: 20px;
+  width: 20px;
+}
+
+.card-container {
+  background-image: linear-gradient(to right, #fff1b3, #ffd8cb);
+  height: 40vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 40px;
+  padding-top: 100px;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 32px;
+  color: #000;
+}
+
+.description {
+  font-size: 10px;
+  font-family: "Roboto";
+  color: #000000;
+}
+
+.resturant-btn {
+  width: 100px;
+  height: 30px;
+  font-size: 10px;
+  color: #ffffff;
+  background-color: #ff7171;
+  border-width: 0;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-weight: normal;
+}
+
+.frontpage-container {
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+}
+
+.food-img {
+  height: 40vh;
+  width: 50%;
+}
+
+.secondarypage-container {
+  background-image: linear-gradient(to right, #fff1b3, #ffd8cb);
+  height: 52vh;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.first-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.first-food-image {
+  height: 155px;
+  width: 155px;
+}
+
+.second-food-image {
+  height: 320px;
+  width: 165px;
+}
+
+.resturant-card-container {
+  background-color: #ff7171;
+  height: 150px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.resturant-logo-name {
+  font-size: 10px;
+  color: #000;
+  font-family: "Roboto";
+}
+
+.resturant-heading {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 32px;
+  color: #000;
+}
+
+.entry-direction {
+  font-size: 10px;
+  color: #000;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+
+.arrow {
+  width: 11px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  .bar {
+    height: 20px;
+    width: 15px;
+  }
+
+  .card-container {
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 8px;
+  }
+
+  .frontpage-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .food-img {
+    height: 40vh;
+    width: 50%;
+  }
+
+  .secondarypage-container {
+    height: 50vh;
+    gap: 10px;
+  }
+
+  .first-food-image {
+    height: 70px;
+    width: 95px;
+  }
+
+  .second-food-image {
+    height: 150px;
+    width: 100px;
+  }
+
+  .resturant-card-container {
+    padding: 5px;
+    height: 100px;
+    width: 170px;
+  }
+
+  .resturant-heading {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header {
+    height: 3vh;
+  }
+
+  .nav-links a {
+    font-weight: 400;
+    font-size: 6px;
+    padding: 5px;
+  }
+
+  .bar {
+    height: 10px;
+    width: 10px;
+  }
+
+  .card-container {
+    padding: 10px;
+    gap: 10px;
+    height: 40vh;
+    justify-content: center;
+  }
+
+  .heading {
+    font-weight: 600;
+    font-size: 10px;
+  }
+
+  .description {
+    font-size: 5px;
+  }
+
+  .resturant-btn {
+    width: 50px;
+    height: 15px;
+    font-size: 6px;
+  }
+
+  .food-img {
+    height: 40vh;
+  }
+
+  .secondarypage-container {
+    column-gap: 10px;
+    height: 47vh;
+  }
+
+  .first-food-image {
+    height: 50px;
+    width: 50px;
+  }
+
+  .second-food-image {
+    height: 110px;
+    width: 50px;
+  }
+
+  .resturant-card-container {
+    padding: 5px;
+    height: 50px;
+    width: 120px;
+  }
+
+  .resturant-logo-name {
+    font-size: 5px;
+  }
+
+  .resturant-heading {
+    font-size: 8px;
+  }
+
+  .entry-direction {
+    font-size: 5px;
+  }
+
+  .arrow {
+    width: 6px;
+  }
+}
